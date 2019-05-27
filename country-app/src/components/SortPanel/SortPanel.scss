@@ -1,0 +1,35 @@
+
+.sort-panel-container{
+    display : flex;
+    justify-content: center;
+    font-weight: 100;
+    .sort-panel{
+        display : flex;
+        justify-content: center;
+        padding: 10px;
+        width: 60%;
+        .active{
+            background-color: #282c34;
+            color: white;
+            transition: all 0.2s;
+        }
+        >div{
+            display: flex;
+            justify-content: center;
+            width:50%;
+            margin:5px;
+            background-color: #aaaaaa;
+            padding: 10px;
+            &:hover{
+                background-color: #282c34;
+                color: white;
+                transition: all 0.2s;
+                cursor: pointer;
+            }
+            &:active{
+                transform: scale(0.95);
+                transition: all 0.2s
+            }
+        }
+    }
+}

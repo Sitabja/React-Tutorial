@@ -1,0 +1,30 @@
+.country-dashboard-wrapper{
+        display : flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: 100;
+    .country-dashboard{
+        display : flex;
+        align-items: center;
+        width: 60%;
+        border : 0.8px solid gray;
+        margin: 4px 0px;
+        &:hover{
+            background-color: #282c34;
+            color: white;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+        > div{
+            padding: 10px 0px;
+            width: 50%;
+        }
+        .name{
+            width: 50%;
+            border-right: 1px solid #cccccc
+        }
+    }
+    
+}
+
